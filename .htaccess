@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^myfoodlab\.catbobber\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.myfoodlab\.catbobber\.com$
+RewriteRule ^/?$ "https\:\/\/myfoodlab\.catbobber\.com\/public\/login" [R=301,L]
+
